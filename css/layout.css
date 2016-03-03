@@ -1,55 +1,28 @@
 /*your custom CSS here*/
 body {
+  padding-top: 100px;
 }
 
-.heading {
-  position:fixed;
-  border-bottom:2px solid black;
-  top: 0;
-  width:100%;
-  left:0;
-  padding: 0 20px;
-
-}
-
-.heading h1 {
-  margin: 10px 0;
+img {
+  width: 100%;
 }
 
 .box {
-  margin-right: 2%;
-  margin-top: 100px;
-  margin-bottom:100px;
-  padding: 20px;
-  position:relative;
- 
-  float:left;
-  width: 30%;
+  padding: 10px 20px;
 }
 
-.box:last-child {
-  margin-right:0;
-}
-
-.box h2 {
-}
-
-.box img {
+.heading
+{
+  position:fixed;
   width: 100%;
+  top: 0;
+  left: 0;
 }
 
-.box a.read-more {
-  display: black;
-  margin-top: 5px;
-  padding-top: 10px;
-  border-top: 1px solid #ccc;
-}
-
-.footer {
-  position: fixed;
+.footer
+{
+  position:fixed;
+  width: 100%;
   bottom: 0;
-  left:0;
-  width: 100%;
-  padding: 0 20px;
-  border-top: 3px solid white;
+  left: 0;
 }
